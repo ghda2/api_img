@@ -4,7 +4,7 @@ services:
     build: .
     container_name: api_img
     ports:
-      - "8000:8000"
+  - "43821:43821"
     env_file:
       - .env
     volumes:
